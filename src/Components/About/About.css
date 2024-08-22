@@ -1,0 +1,17 @@
+.Content{
+    border-bottom: 2px solid gray;
+
+}
+.Content :hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px;
+    border-color: black;
+}
+@media only screen and (max-width: 600px) {
+    .Skills{
+        display:block;
+    
+    }
+  }

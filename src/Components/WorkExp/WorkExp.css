@@ -1,0 +1,47 @@
+.Workexprience {
+  border-bottom: 2px solid gray;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.work1 {
+  margin-left: 170px;
+  box-shadow: 0px 2px 20px;
+  border-radius: 15px;
+  width: 70%;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: flex-end;
+}
+.Work2 {
+  margin-left: 170px;
+  box-shadow: 0px 2px 20px;
+  border-radius: 15px;
+  width: 70%;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: flex-end;
+}
+.Work3 {
+  margin-left: 170px;
+  box-shadow: 0px 2px 20px;
+  border-radius: 15px;
+  width: 70%;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: flex-end;
+}
+.Work4 {
+  margin-left: 170px;
+  box-shadow: 0px 2px 20px;
+  border-radius: 15px;
+  width: 70%;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .Skills {
+    display: block;
+  }
+}

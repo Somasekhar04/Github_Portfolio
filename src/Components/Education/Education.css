@@ -1,0 +1,30 @@
+.Edu{
+    margin-left: 30px;
+    border-bottom: 2px solid gray;
+}
+.Masters{
+    flex: 2rem;
+    gap: 2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    justify-content: center;
+    unicode-bidi: isolate;
+    line-height: 1.5;
+}
+.btech{
+    flex: 2rem;
+    gap: 2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    justify-content: center;
+    line-height: 1.5;
+
+}
+@media only screen and (max-width: 600px) {
+    .Skills{
+        display:block;
+    
+    }
+  }

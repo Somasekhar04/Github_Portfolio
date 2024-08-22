@@ -1,0 +1,32 @@
+.Skills{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+.Skilll{
+  flex: 1rem;
+  border-right: 2px solid gray;
+  margin-top: 100px;
+}
+.Skillr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid gray;
+  
+}
+.Skills p{
+    padding-bottom: 2px;
+    border-bottom: 2px solid gray;
+    margin-right: 40px;
+}
+
+.Header{
+    border-bottom: 2px solid olive;
+}
+@media only screen and (max-width: 600px) {
+    .Skills{
+        display:block;
+    
+    }
+  }

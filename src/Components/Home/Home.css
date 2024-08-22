@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+
+}
+.cardl{
+    flex: 2rem;
+    gap: 2rem;
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    justify-content: center;
+    unicode-bidi: isolate;
+    line-height: 1.5;
+}
+.cardl1{
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    display: inline;
+    letter-spacing: 0.075em;
+    margin-top: -0.5em;
+    text-transform: uppercase;
+}
+.cardr{
+        flex: 1;
+        align-items: center;
+        margin: auto;
+        margin-left: 100px;
+        justify-content: center;
+}
+.cardr img{
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        display:block;
+        
+    
+    }
+  }
